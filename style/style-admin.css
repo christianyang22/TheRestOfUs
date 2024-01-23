@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
+
+body{
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+
+    margin: 0;
+}
+
+#logo{
+    width: 8vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.usuarios{
+    width: 82vw;
+    
+    display: block;
+    
+    background-color: rgba(108, 101, 101, 0.87);
+
+    margin: 0;
+    padding: 5px;
+
+    border-color: #db0e0e;
+    border-style: groove;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #880f0f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.usuarios ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.usuarios ul li {
+    display: inline-block;
+    margin-right: 1%;
+    font-size: 1.2em;
+    font-weight: bold; /* Texto en negrita */
+}
+
+.historial{
+    width: 82vw;
+    
+    display: block;
+    
+    background-color: rgba(108, 101, 101, 0.87);
+
+    margin: 0;
+    padding: 5px;
+
+    border-color: #db0e0e;
+    border-style: groove;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/* Estilo general de la tabla */
+table {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    border-collapse: collapse; /* Los bordes de las celdas se unen */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera para profundidad */
+    margin-bottom: 1%; /* Espacio debajo de la tabla */
+}
+
+/* Estilo de las celdas y cabeceras */
+th, td {
+    border: 2px solid black; /* Bordes ligeros para las celdas */
+    padding: 1%; /* Espaciado interno */
+    text-align: left; /* Alineación del texto */
+}
+
+/* Estilo de la cabecera de la tabla */
+th {
+    text-align: center;
+    color: #880f0f; /* Color del texto */
+    font-size: 1.5em;
+    font-weight: bold; /* Texto en negrita */
+}
+
+td {
+    text-align: center;
+    color: black; /* Color del texto */
+    font-size: 1.2em;
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilo para el hover de las filas */
+tr:hover {
+    background-color: #807575; /* Cambio de color al pasar el mouse */
+}
+
+header{
+    width: 80vw;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 0;
+    padding: 0;
+    padding-left: 2em;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight:bold;
+    color: white;
+    
+    background-color: gray;
+    
+    border: red;
+    border-style: groove;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style: none;
+}
+
+nav li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 2vw;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    color: white;
+}
